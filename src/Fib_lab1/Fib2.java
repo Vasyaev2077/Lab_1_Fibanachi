@@ -1,7 +1,7 @@
 package Fib_lab1;
 
 public class Fib2 {
-    private static int fib2(int n) {
+    public static int fib2(int n) {
         if (n < 2) {
             return n;
         }
@@ -9,7 +9,7 @@ public class Fib2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fib2(5));
+        System.out.println(fib2(13));
         System.out.println(fib2(10));
     }
 }
